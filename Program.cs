@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 class Graph
 {
-    private Dictionary<int, List<int>> graph; // Dictionary để lưu danh sách kề
+    private Dictionary<int, List<int>> graph; 
     public List<int> path;
     public Graph()
     {
